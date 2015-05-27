@@ -29,10 +29,27 @@ import com.thedotpack.api.entity.player.Player;
 import java.util.Collection;
 
 public interface Whitelist {
+    /**
+     * Returns a collection of a whitelisted {@link Player}s
+     * @return a collection of whitelisted {@link Player}s
+     */
     Collection<Player> getPlayers();
 
+    /**
+     * Returns if the whitelist is enabled
+     * @return if the whitelist is enabled
+     */
     boolean isEnabled();
+
+    /**
+     * Sets the enabled status of the server
+     * @param state the state to set
+     */
     void setEnabled(boolean state);
 
+    /**
+     * Sets if ops should be allowed to bypass the whitelist
+     * @param state the state to set
+     */
     void allowOpBypass(boolean state);
 }

@@ -96,6 +96,10 @@ public interface Server {
 	 */
     PluginManager getPluginManager();
 
+	/**
+	 * Returns the {@link Scheduler} for the server
+	 * @return the {@link Scheduler} for the server
+	 */
     Scheduler getScheduler();
 
 	/**
