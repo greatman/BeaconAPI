@@ -1,6 +1,6 @@
 /* The MIT License (MIT)
  *
- * Copyright (c) 2015 TheDotPack
+ * Copyright (c) 2015 BeaconPowered
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -31,7 +31,7 @@ import java.util.UUID;
 public interface World {
     World createNew(UUID worldId);
 
-    World setSpawnPoint(Location loc);
-    World setDimensionType(DimensionType type);
-    World setDefaultGamemode(Gamemode mode);
+    void setSpawnPoint(Location loc);
+    void setDimensionType(DimensionType type);
+    void setDefaultGamemode(Gamemode mode);
 }
