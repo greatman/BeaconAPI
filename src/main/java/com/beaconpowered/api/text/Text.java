@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.text;
+package com.beaconpowered.api.text;
 
 public interface Text {
     Text createNew(String text);

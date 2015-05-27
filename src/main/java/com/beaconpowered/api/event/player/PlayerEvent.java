@@ -22,9 +22,9 @@
  *
  */
 
-package com.thedotpack.api.event.player;
+package com.beaconpowered.api.event.player;
 
-import com.thedotpack.api.entity.player.Player;
+import com.beaconpowered.api.entity.player.Player;
 
 public interface PlayerEvent {
     Player getPlayer();

@@ -22,9 +22,9 @@
  *
  */
 
-package com.thedotpack.api.event.player;
+package com.beaconpowered.api.event.player;
 
-import com.thedotpack.api.entity.DamageCause;
+import com.beaconpowered.api.entity.DamageCause;
 
 public interface PlayerDeathEvent extends PlayerEvent {
     DamageCause getDeathCause();

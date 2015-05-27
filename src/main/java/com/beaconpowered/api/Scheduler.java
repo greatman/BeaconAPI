@@ -22,9 +22,9 @@
  *
  */
 
-package com.thedotpack.api;
+package com.beaconpowered.api;
 
-import com.thedotpack.api.container.plugin.PluginContainer;
+import com.beaconpowered.api.container.plugin.PluginContainer;
 
 interface Scheduler {
     /**

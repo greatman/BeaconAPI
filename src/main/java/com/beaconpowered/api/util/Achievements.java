@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.util;
+package com.beaconpowered.api.util;
 
 public enum Achievements {
     OPEN_INVENTORY,

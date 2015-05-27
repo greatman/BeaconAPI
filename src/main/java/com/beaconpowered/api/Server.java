@@ -22,12 +22,12 @@
  *
  */
 
-package com.thedotpack.api;
+package com.beaconpowered.api;
 
-import com.thedotpack.api.container.plugin.PluginManager;
-import com.thedotpack.api.entity.player.Player;
-import com.thedotpack.api.location.World;
-import com.thedotpack.api.text.Text;
+import com.beaconpowered.api.container.plugin.PluginManager;
+import com.beaconpowered.api.entity.player.Player;
+import com.beaconpowered.api.location.World;
+import com.beaconpowered.api.text.Text;
 
 import java.util.Collection;
 import java.util.UUID;

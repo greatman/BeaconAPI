@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.location;
+package com.beaconpowered.api.location;
 
 public enum DimensionType {
     OVERWORLD,

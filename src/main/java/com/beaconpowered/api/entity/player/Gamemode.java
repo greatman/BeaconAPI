@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.entity.player;
+package com.beaconpowered.api.entity.player;
 
 public enum Gamemode {
     SPECTATOR,

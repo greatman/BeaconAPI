@@ -22,11 +22,11 @@
  *
  */
 
-package com.thedotpack.api.entity;
+package com.beaconpowered.api.entity;
 
-import com.thedotpack.api.entity.type.EntityType;
-import com.thedotpack.api.location.Location;
-import com.thedotpack.api.text.Text;
+import com.beaconpowered.api.entity.type.EntityType;
+import com.beaconpowered.api.location.Location;
+import com.beaconpowered.api.text.Text;
 
 public interface Entity {
 	EntityType getType();

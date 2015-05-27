@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.item;
+package com.beaconpowered.api.item;
 
 public enum ItemType {
     STONE,

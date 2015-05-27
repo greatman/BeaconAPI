@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.event;
+package com.beaconpowered.api.event;
 
 public enum EventOrder {
     /**

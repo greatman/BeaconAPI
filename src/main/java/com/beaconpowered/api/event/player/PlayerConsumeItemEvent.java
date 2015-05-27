@@ -22,9 +22,9 @@
  *
  */
 
-package com.thedotpack.api.event.player;
+package com.beaconpowered.api.event.player;
 
-import com.thedotpack.api.item.ItemStack;
+import com.beaconpowered.api.item.ItemStack;
 
 public interface PlayerConsumeItemEvent extends PlayerEvent {
     ItemStack getItem();

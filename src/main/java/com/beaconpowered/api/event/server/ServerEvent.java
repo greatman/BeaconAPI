@@ -22,10 +22,10 @@
  *
  */
 
-package com.thedotpack.api.event.server;
+package com.beaconpowered.api.event.server;
 
-import com.thedotpack.api.Server;
-import com.thedotpack.api.event.Event;
+import com.beaconpowered.api.Server;
+import com.beaconpowered.api.event.Event;
 
 public interface ServerEvent extends Event {
     Server getServer();

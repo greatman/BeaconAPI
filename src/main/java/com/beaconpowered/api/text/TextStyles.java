@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.text;
+package com.beaconpowered.api.text;
 
 public enum TextStyles {
     STRIKE_THROUGH, strike_through,

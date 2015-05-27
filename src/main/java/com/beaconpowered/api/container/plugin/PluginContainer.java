@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.container.plugin;
+package com.beaconpowered.api.container.plugin;
 
 public interface PluginContainer {
     String getId();

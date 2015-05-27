@@ -22,9 +22,9 @@
  *
  */
 
-package com.thedotpack.api.location;
+package com.beaconpowered.api.location;
 
-import com.thedotpack.api.entity.player.Gamemode;
+import com.beaconpowered.api.entity.player.Gamemode;
 
 import java.util.UUID;
 

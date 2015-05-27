@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.event.player;
+package com.beaconpowered.api.event.player;
 
 public interface PlayerExpChangeEvent extends PlayerEvent {
     int getExperience();

@@ -22,10 +22,10 @@
  *
  */
 
-package com.thedotpack.api.event.server;
+package com.beaconpowered.api.event.server;
 
-import com.thedotpack.api.container.plugin.PluginContainer;
-import com.thedotpack.api.event.Event;
+import com.beaconpowered.api.container.plugin.PluginContainer;
+import com.beaconpowered.api.event.Event;
 
 public interface PluginEvent extends Event {
     PluginContainer getPlugin();

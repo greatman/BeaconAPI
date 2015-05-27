@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.container.plugin;
+package com.beaconpowered.api.container.plugin;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

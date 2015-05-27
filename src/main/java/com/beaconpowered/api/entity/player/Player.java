@@ -22,12 +22,12 @@
  *
  */
 
-package com.thedotpack.api.entity.player;
+package com.beaconpowered.api.entity.player;
 
-import com.thedotpack.api.entity.Entity;
-import com.thedotpack.api.text.Text;
-import com.thedotpack.api.util.Achievements;
-import com.thedotpack.api.util.Sounds;
+import com.beaconpowered.api.entity.Entity;
+import com.beaconpowered.api.text.Text;
+import com.beaconpowered.api.util.Achievements;
+import com.beaconpowered.api.util.Sounds;
 
 import java.net.InetAddress;
 

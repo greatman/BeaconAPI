@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.container.block;
+package com.beaconpowered.api.container.block;
 
 public interface PlayerInventory extends BlockContainer {
 

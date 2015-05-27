@@ -22,9 +22,9 @@
  *
  */
 
-package com.thedotpack.api.event.player;
+package com.beaconpowered.api.event.player;
 
-import com.thedotpack.api.location.Location;
+import com.beaconpowered.api.location.Location;
 
 public interface PlayerMoveEvent {
     Location getFrom();

@@ -22,9 +22,9 @@
  *
  */
 
-package com.thedotpack.api;
+package com.beaconpowered.api;
 
-import com.thedotpack.api.entity.player.Player;
+import com.beaconpowered.api.entity.player.Player;
 
 import java.util.Collection;
 

@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.container.data;
+package com.beaconpowered.api.container.data;
 
 public interface DataContainer {
 

@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.entity.type;
+package com.beaconpowered.api.entity.type;
 
 public enum EntityType {
     BAT,

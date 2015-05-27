@@ -22,9 +22,9 @@
  *
  */
 
-package com.thedotpack.api.event;
+package com.beaconpowered.api.event;
 
-import com.thedotpack.api.text.Text;
+import com.beaconpowered.api.text.Text;
 
 public interface MessageEvent extends Event {
     Text getMessage();

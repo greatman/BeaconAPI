@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.event.server;
+package com.beaconpowered.api.event.server;
 
 public interface PluginDisabledEvent extends PluginEvent {
 

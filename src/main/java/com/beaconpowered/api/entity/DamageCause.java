@@ -22,7 +22,7 @@
  *
  */
 
-package com.thedotpack.api.entity;
+package com.beaconpowered.api.entity;
 
 public enum DamageCause {
     BLOCK_EXPLOSION,
