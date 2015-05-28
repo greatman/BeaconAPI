@@ -30,6 +30,6 @@ public interface PlayerChangeHealthEvent extends PlayerEvent, Cancellable {
     double getFrom();
     double getTo();
 
-    void setHealth(double health);
-    double getHealth();
+    void setChangedHealth(double health);
+    double getChangedHealth();
 }
