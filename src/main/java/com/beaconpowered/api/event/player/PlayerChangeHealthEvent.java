@@ -24,9 +24,12 @@
 
 package com.beaconpowered.api.event.player;
 
-public interface PlayerChangeHealthEvent extends PlayerEvent {
+import com.beaconpowered.api.event.Cancellable;
+
+public interface PlayerChangeHealthEvent extends PlayerEvent, Cancellable {
     double getFrom();
     double getTo();
 
     void setHealth(double health);
+    double getHealth();
 }
