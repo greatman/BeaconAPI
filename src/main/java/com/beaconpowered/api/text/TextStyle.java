@@ -24,16 +24,10 @@
 
 package com.beaconpowered.api.text;
 
-public interface Text {
-    Text createNew(String text);
-
-    Text appendColor(TextColor color);
-    Text appendStyle(TextStyle color);
-    Text appendText(String text);
-
-    boolean isColored();
-    boolean isStyled();
-
-    boolean containsColor(TextColor color);
-    boolean containsStyle(TextStyle style);
+public enum TextStyle {
+    STRIKE_THROUGH, strike_through,
+    UNDERLINED, underlined,
+    BOLD, bold,
+    RANDOM, random,
+    ITALIC, italic,
 }

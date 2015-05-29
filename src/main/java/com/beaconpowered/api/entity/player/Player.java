@@ -27,8 +27,8 @@ package com.beaconpowered.api.entity.player;
 import com.beaconpowered.api.Server;
 import com.beaconpowered.api.entity.Entity;
 import com.beaconpowered.api.text.Text;
-import com.beaconpowered.api.util.Achievements;
-import com.beaconpowered.api.util.Sounds;
+import com.beaconpowered.api.util.Achievement;
+import com.beaconpowered.api.util.Sound;
 
 import java.net.InetAddress;
 
@@ -88,28 +88,28 @@ public interface Player extends Entity {
 
     /**
      * Plays a sound on the player's client
-     * @param sound the {@link Sounds} to player
+     * @param sound the {@link Sound} to player
      */
-    void playSound(Sounds sound);
+    void playSound(Sound sound);
 
     /**
-     * Returns if a player has an {@link Achievements}
-     * @param achievement the {@link Achievements} to check for
-     * @return if a player has an {@link Achievements}
+     * Returns if a player has an {@link Achievement}
+     * @param achievement the {@link Achievement} to check for
+     * @return if a player has an {@link Achievement}
      */
-    boolean hasAchievement(Achievements achievement);
+    boolean hasAchievement(Achievement achievement);
 
     /**
-     * Gives a player an {@link Achievements}
-     * @param achievement the {@link Achievements} to give the player
+     * Gives a player an {@link Achievement}
+     * @param achievement the {@link Achievement} to give the player
      */
-    void giveAchievement(Achievements achievement);
+    void giveAchievement(Achievement achievement);
 
     /**
-     * Revokes a player's {@link Achievements}
-     * @param achievement the {@link Achievements} to revoke
+     * Revokes a player's {@link Achievement}
+     * @param achievement the {@link Achievement} to revoke
      */
-    void revokeAchievement(Achievements achievement);
+    void revokeAchievement(Achievement achievement);
 
     /**
      * Returns if the player is flying
