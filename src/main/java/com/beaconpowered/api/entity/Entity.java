@@ -26,18 +26,54 @@ package com.beaconpowered.api.entity;
 
 import com.beaconpowered.api.entity.type.EntityType;
 import com.beaconpowered.api.location.Location;
+import com.beaconpowered.api.location.World;
 import com.beaconpowered.api.text.Text;
 
 public interface Entity {
+	/**
+	 * Returns the {@link EntityType} of the entity
+	 * @return the {@link EntityType} of the entity
+	 */
 	EntityType getType();
 
+	/**
+	 * Returns the {@link Text} of the entity's name
+	 * @return the {@link Text} of the entity's name
+	 */
 	Text getName();
+
+	/**
+	 * Returns the {@link Text} of the entity's custom name
+	 * @return the {@link Text} of the entity's custom name
+	 */
 	Text getCustomName();
 
+	/**
+	 * Returns the {@link Location} of the entity
+	 * @return the {@link Location} of the entity
+	 */
 	Location getLocation();
+
+	/**
+	 * Sets the current {@link Location} of the entity
+	 * @param location the {@link Location} to set
+	 */
 	void setLocation(Location location);
+
+	/**
+	 * Returns if the entity is on the ground
+	 * @return if the entity is on the ground
+	 */
 	boolean isOnGround();
 
+	/**
+	 * Removes the entity from the {@link World}
+	 */
 	void remove();
+
+	/**
+	 * Returns if the entity is removed from the {@link World}
+	 * @return if the entity is removed from the {@link World}
+	 */
 	boolean isRemoved();
 }

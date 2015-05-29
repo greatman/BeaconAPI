@@ -24,6 +24,9 @@
 
 package com.beaconpowered.api.entity.type;
 
+/**
+ * Represents available entity types
+ */
 public enum EntityType {
     BAT,
     BLAZE,

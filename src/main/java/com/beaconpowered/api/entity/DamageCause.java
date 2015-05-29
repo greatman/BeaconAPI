@@ -24,6 +24,9 @@
 
 package com.beaconpowered.api.entity;
 
+/**
+ * Represents possible causes of damage
+ */
 public enum DamageCause {
     BLOCK_EXPLOSION,
     CONTACT,

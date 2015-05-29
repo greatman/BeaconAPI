@@ -24,6 +24,9 @@
 
 package com.beaconpowered.api.entity.player;
 
+/**
+ * Represents available game modes
+ */
 public enum Gamemode {
     SPECTATOR,
     ADVENTURE,

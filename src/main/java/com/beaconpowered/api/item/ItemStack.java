@@ -25,11 +25,27 @@
 package com.beaconpowered.api.item;
 
 public interface ItemStack {
+    /**
+     * Returns the {@link ItemType} of the ItemStack
+     * @return the {@link ItemType} of the ItemStack
+     */
     ItemType getType();
 
+    /**
+     * Returns the quantity of the ItemStack
+     * @return the quantity of the ItemStack
+     */
     int getQuantity();
 
+    /**
+     * Sets the quantity of the ItemStack
+     * @param quantity the quantity to set
+     */
     void setQuantity(int quantity);
 
+    /**
+     * Returns the max stack size of the ItemStack
+     * @return the max stack size of the ItemStack
+     */
     int getMaxStack();
 }

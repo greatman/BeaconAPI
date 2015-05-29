@@ -24,6 +24,9 @@
 
 package com.beaconpowered.api.item;
 
+/**
+ * Represents available item types
+ */
 public enum ItemType {
     STONE,
     GRASS,
