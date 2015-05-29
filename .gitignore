@@ -22,6 +22,7 @@ hs_err_pid*
 
 # maven
 /build.xml
+/target
 
 # vim
 .*.sw[a-p]
