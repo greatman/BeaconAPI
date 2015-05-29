@@ -25,6 +25,15 @@
 package com.beaconpowered.api.event;
 
 public interface Cancellable {
+    /**
+     * Returns if the event is cancelled
+     * @return if the event is cancelled
+     */
     boolean isCancelled();
-    void setCancelled(boolean cancelled);
+
+    /**
+     * Sets the cancel status of the event
+     * @param status the cancel status of the event
+     */
+    void setCancelled(boolean status);
 }
